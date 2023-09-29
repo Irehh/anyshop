@@ -1,0 +1,25 @@
+{
+    "name": "mostafa_hamed",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mostafa Hamed",
+            "email": "mostafa.hamed2029@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Front\\Providers\\FrontServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Front\\": ""
+        }
+    }
+}
